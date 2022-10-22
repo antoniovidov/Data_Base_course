@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-print("Hello Worl")
-=======
+
 import io 
 import os
 import sys
