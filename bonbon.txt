@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 
 Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor
 Antonio~~~~~~~~vladov~~~~~~~~~~~~~~20202kustendil~~~~~~~~~~~N2012001-01-016.0~
 Dragomir~~~~~~~Zlatanov~~~~~~~~~~~~20408901~~~~~~~~~~~~~~~~~N9012004-04-046.0~
 ASDHASD~~~~~~~~ASDASD~~~~~~~~~~~~~~20222ASODAS~~~~~~~~~~~~~~m202
 asdas~~~~~~~~~~asdasd~~~~~~~~~~~~~~20222asklm~~~~~~~~~~~~~~~M2022002-02-025.0~
+=======
+Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor
+asda~~~~~~~~~~~sasdsad~~~~~~~~~~~~~2120~adskfa~~~~~~~~~~~~~~M1012009-09-095.0~
+>>>>>>> Stashed changes
