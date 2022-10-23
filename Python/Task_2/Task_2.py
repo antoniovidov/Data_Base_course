@@ -11,12 +11,21 @@ import datetime
 
 def insert():   ##дефинираме функция
     answer = ""
+    thetop = "Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor" +"\n"
+    value = bool
+    with open("bonbon.txt", "a") as f:
+        print("Welcome")
+    f.close()
+    with open("bonbon.txt","r") as f:
+        if thetop not in f.read():
+            value = True
+        else:
+            value = False
+    f.close()        
     with open("bonbon.txt", "a") as f: ## отваряме текстовия фаил за append
-        
-        
-        f.write( "Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor" +"\n")
-        
-        
+        f.write("\n")
+        if value == True:
+            f.write(thetop)
         q = input("Do you want to make a new lineY/N-> ")
         if q=="N":
             print("bye bye!")
@@ -133,4 +142,4 @@ def insert():   ##дефинираме функция
     f.close()    
 
 insert()
->>>>>>> Stashed changes
+
