@@ -11,7 +11,11 @@ import datetime
 
 def insert():   ##дефинираме функция
     answer = ""
+<<<<<<< Updated upstream
     thetop = "Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor" +"\n"
+=======
+    thetop = "Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor"+"\n"
+>>>>>>> Stashed changes
     value = bool
     with open("bonbon.txt", "a") as f:
         print("Welcome")
@@ -23,9 +27,16 @@ def insert():   ##дефинираме функция
             value = False
     f.close()        
     with open("bonbon.txt", "a") as f: ## отваряме текстовия фаил за append
+<<<<<<< Updated upstream
         f.write("\n")
         if value == True:
             f.write(thetop)
+=======
+        if value == True:
+            f.write(thetop)
+        elif value == False:
+            f.write("\n")
+>>>>>>> Stashed changes
         q = input("Do you want to make a new lineY/N-> ")
         if q=="N":
             print("bye bye!")
@@ -121,14 +132,22 @@ def insert():   ##дефинираме функция
         f.seek(64)
         f.write(dS)
         
+<<<<<<< Updated upstream
         score = float(input(" Number from 2 to 6 - > "))## вкарваме пола под  колона Score и проверяваме дали е по-голямо от 4 символa
+=======
+        score = float(input("Score from 2 to 6 - > "))## вкарваме пола под  колона Score и проверяваме дали е по-голямо от 4 символa
+        while score < 2 or score > 6:
+            print("Invalid score,try again")
+            score = float(input("Score from 2 to 6 - > "))
+>>>>>>> Stashed changes
         scoreS = ""
         scoreS = str(score)
         while len(scoreS) > 4:
-            print("Error: Number cannot be more then 4 characters,want to try again Y/N")
+            print("Error: Score cannot be more then 4 characters,want to try again Y/N")
             answer = input()
             if answer=="Y":
-                score = input("Enter your class number:")
+                score = input("Enter your score:")
+                scoreS = str(score)
             elif answer=="N":
                 exit()
         while len(scoreS) < 4:

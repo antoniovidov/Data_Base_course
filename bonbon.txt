@@ -1,6 +1,10 @@
-
 Name~~~~~~~~~~~Family~~~~~~~~~~~~~~Numb~Town~~~~~~~~~~~~~~~~GROMB_Date~~~~Scor
+<<<<<<< Updated upstream
 ASDASD~~~~~~~~~ASDASD~~~~~~~~~~~~~~10111KADAS~~~~~~~~~~~~~~~W1012000-12-125.0~
 
 asdasd~~~~~~~~~asdasdas~~~~~~~~~~~~10011dsfadskfi~~~~~~~~~~~N2021300-10-106.0~
 asdasd~~~~~~~~~asdasd~~~~~~~~~~~~~~10111spsdkfkas~~~~~~~~~~~W3022000-12-123.0~asdasd~~~~~~~~~asdasd~~~~~~~~~~~~~~202~~asdasdas~~~~~~~~~~~~M1~~1900-12-215.0~
+=======
+Drago~~~~~~~~~~Zlatanov~~~~~~~~~~~~20010Kustendil~~~~~~~~~~~M1012007-01-015.60
+Antonio~~~~~~~~Velkov~~~~~~~~~~~~~~20809Azerbijan~~~~~~~~~~~N3051945-09-035.89
+>>>>>>> Stashed changes
