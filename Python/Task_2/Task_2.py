@@ -110,8 +110,16 @@ def insert():   ##дефинираме функция
         dS = str(d)
         f.seek(64)
         f.write(dS)
+<<<<<<< Updated upstream
 
         score = float(input(" Number from 2 to 6 - > "))## вкарваме пола под  колона Score и проверяваме дали е по-голямо от 4 символa
+=======
+        
+        score = float(input("Number from 2 to 6 - > "))## вкарваме пола под  колона Score и проверяваме дали е по-голямо от 4 символa
+        while score < 2 or score > 6:
+            print("Error: Score must be between 2 and 6")
+            score = float(input("Number from 2 to 6 - > "))
+>>>>>>> Stashed changes
         scoreS = ""
         scoreS = str(score)
         while len(scoreS) > 4:
@@ -126,6 +134,10 @@ def insert():   ##дефинираме функция
         f.seek(74)
         f.write(scoreS)
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 
 
